@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 1rem;
+}
+
+header{
+  padding-top: 1rem ;
+  padding-bottom: 2rem;
+  height: 170px;
+  background: url('../images/flywheel.jpg') no-repeat;
+  background-size: cover;
+  text-transform:uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+h1{
+  color: white;
+  text-align:center;
+}
+
+nav{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+nav a{
+  display: inline-block;
+  color : #000;
+  padding: 1rem 4rem;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+a.active{
+  background:white ;
+}
+
+aside{
+  display: flex;
+  flex-direction: column;
+  height: 750px;
+  width: 20%;
+  float: left;
+  background: #777613;
+  padding: 2rem;
+}
+
+aside a img{
+  width: 100%;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+}
+
+.right{
+  padding-right: 150px;
+  width: 80%;
+  float: right;
+}
+
+.right p{
+  padding-bottom: 1rem;
+}
+
+.right h2{
+  color: #000;
+  padding: 2rem 0;
+  font-size: 2rem;
+}
+
+.right ul li{
+  margin-left: 40px;
+}
+
+/* Week 4 assignment */
+
+.right table{
+  margin:auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.right table tr th,.right table tr td{
+  width: 150px;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.right table tr th:nth-child(1),.right table tr td:nth-child(1){
+  width: 400px;
+  text-align: left;
+  padding-left: 0.5rem;
+}
+
+.right table tr th{
+  background: rgb(146,155,74);
+  background: linear-gradient(0deg, rgba(146,155,74,1) 0%, rgba(177,224,83,1) 100%);
+  color: #fff;
+  border-bottom: 3px solid #B1E053;
+  border-radius: 5px 5px 0 0;
+}
+
+.right table tr td{
+  background: #E4F5D4;
+  color: #797979;
+}
+
+
